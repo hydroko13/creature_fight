@@ -69,8 +69,8 @@ impl MainState {
 
         
 
-        for _ in 0..7000 {
-            predators.push(Predator::new(Vec2::new(rng.random_range(-5000.0 .. 5000.0), rng.random_range(-5000.0 .. 5000.0)), rng.random_range(0.0 .. 2.0 * 3.14159)));
+        for _ in 0..14000 {
+            predators.push(Predator::new(Vec2::new(rng.random_range(-10000.0 .. 10000.0), rng.random_range(-10000.0 .. 10000.0)), rng.random_range(0.0 .. 2.0 * 3.14159)));
         }
 
         Ok(MainState {
